@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media(min-width: 641px){
+body{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+overflow-x: hidden;
+margin: 0 auto;
+}
+
+
+.Header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0 140px 5px 30px;
+margin: 0 auto;
+width: 1440px;
+height: 100px;
+background-color: #38466D;
+}
+.Header img{
+width: 120px;
+height: 70px;;
+}
+.Menu{
+display: flex;
+flex-direction: row;
+list-style: none;
+margin: 0;
+}
+.Menu li{
+padding-right: 112px;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.Menu li a{
+text-decoration: none;
+color: white;
+line-height: 1;
+cursor: pointer;
+}
+.Menu a:after{
+background-color: white; 
+display: block;
+content: "";
+height: 2px;
+width: 0%;
+margin-top: 3px;
+-webkit-transition: width .3s ease-in-out;
+-moz--transition: width .3s ease-in-out;
+transition: width .3s ease-in-out;
+}
+.Menu a:hover:after,
+.Menu a:focus:after {
+    width: 100%;
+}
+.Burger{
+display: none;
+}
+
+
+
+.Authorization_centr{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+margin: 0 auto;
+width: 1440px;
+height: 673px;
+background-image: url(image/BG2.png);
+}
+.A_one{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 55px 120px 20px 0;
+width: 460px;
+border-radius: 10px;
+box-shadow: 0 0 3px 1px #CCC;
+background-color: white;
+}
+.A_two{
+display: none;
+flex-direction: column;
+align-items: center;
+margin: 55px 120px 20px 0;
+width: 460px;
+height: 520px;
+border-radius: 10px;
+box-shadow: 0 0 3px 1px #CCC;
+background-color: white;
+}
+.AB{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 330px;
+}
+.AB2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 330px;
+margin-bottom: 20px;
+}
+.AB button{
+margin-top: 50px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+line-height: normal;
+border: 1px solid #38466D;
+height: 48px;
+}
+.AB2 button{
+margin-top: 50px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+line-height: normal;
+border: 1px solid #38466D;
+height: 48px;
+}
+
+
+
+.A_one .AB .AB_one button{
+width: 120px;
+background-color: #38466D;
+color: white;
+font-weight: 700;
+transition: .3s ease-in-out;
+}
+.A_one .AB .AB_two button{
+width: 210px;
+background-color: rgba(50, 70, 109, .2);
+font-weight: 400;
+transition: .3s ease-in-out;
+}
+.A_one .AB:hover .AB_one button{
+background-color: rgba(50, 70, 109, .2);
+font-weight: 400;
+color: black;
+transition: .3s ease-in-out;
+}
+.A_one .AB:hover .AB_two button{
+background-color: #38466D;
+color: white;
+font-weight: 700;
+transition: .3s ease-in-out;
+}
+
+.A_two .AB .AB_one button{
+width: 120px;
+background-color: rgba(50, 70, 109, .2);
+font-weight: 400;
+transition: .3s ease-in-out;
+}
+.A_two .AB .AB_two button{
+width: 210px;
+background-color: #38466D;
+color: white;
+font-weight: 700;
+transition: .3s ease-in-out;
+}
+.A_two .AB:hover .AB_one button{
+background-color: #38466D;
+color: white;
+font-weight: 700;
+transition: .3s ease-in-out;
+}
+.A_two .AB:hover .AB_two button{
+background-color: rgba(50, 70, 109, .2);
+font-weight: 400;
+color: black;
+transition: .3 m s ease-in-out;
+}
+
+
+
+.AB2 .AB_three button{
+width: 330px;
+background-color: #38466D;
+color: white;
+font-weight: 400;
+transition: .5s ease-in-out;
+margin-bottom: 10px;
+}
+.AB2 .AB_three button:hover{
+background-color: rgba(50, 70, 109, .2);
+font-weight: 400;
+color: black;
+transition: .5s ease-in-out;
+}
+.A_two .AB2 .AB_three {
+margin-top: 50px;
+}.A_two .AB2 .AB_three button{
+margin-top: 0px;
+}
+.AB2 a{
+text-decoration: none;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: black;
+margin-left:105px;
+}
+.AInput{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.AInput [class^=AI_]{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 330px;
+}
+[class^=AI_] input{
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 270px;
+height: 40px;
+margin-left: -1px;
+padding-left: 18px;
+border-radius: 0 5px 5px 0;
+border: 1px solid #38466D;
+margin-bottom: 15px;
+}
+.AI_one input{
+margin-top: 23px;
+}
+[class^=AI_] img{
+width: 30px;
+height: 30px;
+border-radius: 5px 0 0 5px;
+padding: 6px;
+border: 1px solid #38466D;
+background-color: #B3B8C0;
+}
+.AI_one img{
+margin-top: 8px;
+padding: 4px 6px 8px 6px;
+}
+.AI_two img, .AI_three img, .AI_fore img{
+margin-top: -15px;
+}
+.AIChek{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 330px;
+margin-top: 10px;
+}
+.AIChek label{
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.AIChek input{
+width: 15px;
+height: 15px;
+border-radius: 2px;
+border: 1px solid #38466D;
+}
+}
+
+
+
+
+
+
+
+
+@media((min-width: 300px) and (max-width: 640px)){
+body{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+overflow-x: hidden;
+margin: 0 auto;
+}
+.Header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-flow: row wrap;
+margin: 0 auto;
+/*height: 60px;*/
+background-color: #38466D;
+z-index: 30;
+}
+.Logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 60px;
+}
+.Logo img{
+width: 70px;
+height: 40px;
+margin-left: 20px;
+}
+.Nav{
+display: none;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+width: 100vw;
+background-color: #38466D;
+}
+.Menu{
+margin-top: 10px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+list-style: none;
+}
+.Menu li{
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: 42px;
+margin-bottom: 10px;
+margin-left: -40px;
+cursor: pointer;
+}
+.Menu li a{
+text-decoration: none;
+color: white;
+}
+.Burger{
+width: 45px;
+height: 45px;
+margin-right: 20px;
+}
+
+.Authorization_centr{
+margin: 0 auto;
+width: 90vw;
+}
+.AB button{
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+line-height: 36px;
+width: 75vw;
+border-radius: 5px;
+border: 1px solid #38466D;
+}
+.AB2 button{
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+line-height: 36px;
+width: 75vw;
+border-radius: 5px;
+border: 1px solid #38466D;
+}
+.AB_one button{
+margin-top: 30px;
+background-color: #38466D;
+color: white;
+font-weight: 700;
+}
+.AB_two button{
+margin-top: 10px;
+background-color: rgba(50, 70, 109, .2);
+font-weight: 400;
+}
+.AB_three button{
+margin-top: 60px ;
+background-color: #38466D;
+border: 1px solid #38466D;
+color: white;
+}
+.AB2 .AB_three{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+[class^="AI_"]{
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+}
+.AI_two{
+margin-top: 10px;
+}
+.AInput{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.AInput input{
+display: flex;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 175px;
+height: 40px;
+padding-left: 18px;
+border-radius: 0 5px 5px 0;
+border: 1px solid #38466D;
+}
+[class^="AI_"] img{
+width: 30px;
+height: 30px;
+padding: 6px;
+border-radius: 5px 0 0 5px;
+border: 1px solid #38466D;
+background-color: #B3B8C0;	
+}
+.AIChek{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-left: -109px;
+}
+.AIChek input{
+width: 15px;
+height: 15px;
+border-radius: 2px;
+margin-right: 10px;
+border: 1px solid #38466D;
+}
+.AIChek label{
+display: flex;
+flex-direction: row;
+align-items: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.A_one a{
+margin-top: 10px;
+text-decoration: none;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: black;
+}
+.AI_three, .AI_fore{
+margin-top: 10px;
+}
+
+.A_two .AB_one button{
+background-color: rgba(50, 70, 109, .2);
+font-weight: 400;
+color: black;
+}
+.A_two .AB_two button{
+background-color: #38466D;
+color: white;
+font-weight: 700;
+}
+.A_two .AIChek input{
+width: 15px;
+height: 15px;
+border-radius: 2px;
+border: 1px solid #38466D;
+}
+.A_two .AIChek label{
+margin-left: 100px;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 240px;
+}
+.A_one{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 40px;
+width: 90vw;
+height: 430px;
+border-radius: 10px;
+box-shadow: 0 0 3px 1px #CCC;
+background-color: white;
+margin-bottom: 20px;
+}
+.A_two{
+display: none;
+flex-direction: column;
+align-items: center;
+margin-top: 40px;
+width: 90vw;
+height: 520px;
+border-radius: 10px;
+box-shadow: 0 0 3px 1px #CCC;
+background-color: white;
+margin-bottom: 20px;
+}
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Authorization.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+	<body>
+		<header>
+			<div class="Header">
+				<div class="Logo">
+					<img src="image/logo.png">
+				</div>
+				<img src="image/Burger.png" class="Burger">
+				<nav class="Nav">
+					<ul class="Menu">
+						<li><a href="../Main.html">Главная</a></li>
+						<li><a href="../Variants/Variants.html">Тесты</a></li>
+						<li><a href="../Formulas/Formulas.html">Формулы</a></li>
+						<li><a href="../Courses/Courses.html">Курсы</a></li>
+						<li><a href="Authorization.html">Вход</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="Authorization_centr">
+				<div class="A_one" id="A_one">
+					<div class="AB">
+						<div class="AB_one">
+							<button onclick="Entrance()">Вход</button>
+						</div>
+						<div class="AB_two">
+							<button onclick="Registration()">Регистрация</button>
+						</div>					
+					</div>
+					<div class="AInput">
+						<div class="AI_one">
+							<img src="image/Login.png">
+							<input placeholder="Логин" type="text" />
+						</div>
+						<div class="AI_two">
+							<img src="image/Email.png">
+							<input placeholder="Email" type="email" />
+						</div>
+
+						<div class="AIChek">
+							<label>
+								<input type="checkbox"/> Запомнить меня
+							</label>
+						</div>
+					</div>
+					<div class="AB2">
+						<div class="AB_three">
+							<button onclick="window.location.href = '../Courses/Courses.html'">Войти</button>
+							<a href="#">Забыли пароль?</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="A_two" id="A_two">
+					<div class="AB">
+						<div class="AB_one">
+							<button onclick="Entrance()">Вход</button>
+						</div>
+						<div class="AB_two">
+							<button onclick="Registration()">Регистрация</button>
+						</div>
+					</div>	
+					<div class="AInput">
+						<div class="AI_one">
+							<img src="image/Login.png">
+							<input placeholder="Логин" type="text" />
+						</div>
+						<div class="AI_two">
+							<img src="image/Email.png">
+							<input placeholder="Email" type="email" />
+						</div>
+						<div class="AI_three">
+							<img src="image/Key.png">
+							<input placeholder="Пароль" type="password" />
+						</div>
+						<div class="AI_fore">
+							<img src="image/Key.png">
+							<input placeholder="Подтвердите пароль" type="password" />
+						</div>
+						<div class="AIChek">
+							<label>
+								<input type="checkbox"/> Я согласен с политикой сайта
+							</label>
+						</div>
+					</div>
+					<div class="AB2">
+						<div class="AB_three">
+							<button onclick="window.location.href = '../Courses/Courses.html'">Регистрация</button>
+						</div>
+					</div>			
+				</div>
+		<script src="script.js"></script>
+		<script src="../burger.js"></script>		
+	</body>
+</html>

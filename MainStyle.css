@@ -1,0 +1,982 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media (min-width: 641px){
+body{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+overflow-x: hidden;
+margin: 0 auto;
+}
+.Header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0 140px 5px 30px;
+margin: 0 auto;
+width: 1440px;
+height: 100px;
+background-color: #38466D;
+}
+.Header img{
+width: 120px;
+height: 70px;
+}
+.Menu li{
+display: inline-flex;
+padding-right: 112px;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.Menu li a{
+text-decoration: none;
+color: white;
+line-height: 1;
+cursor: pointer;
+}
+.Menu a:after{
+background-color: white; 
+display: block;
+content: "";
+height: 2px;
+width: 0%;
+margin-top: 3px;
+-webkit-transition: width .3s ease-in-out;
+-moz--transition: width .3s ease-in-out;
+transition: width .3s ease-in-out;
+}
+.Menu a:hover:after,
+.Menu a:focus:after {
+    width: 100%;
+}
+.Burger {
+display: none;
+}
+
+
+.Main_one{
+position: relative;
+margin: 0 auto 0;
+width: 1440px;
+height: 673px;
+background-image: url(image/BG.png);
+}
+.Main_one img{
+display: none;
+}
+.Main_one h1{
+position: absolute;
+margin: 164px 956px 318px 140px;
+width: 344px;
+font-family: Roboto, serif;
+font-size: 50px;
+line-height: 75px;
+}
+.Main_one p{
+position: absolute;
+margin: 330px 1040px 118px 140px;
+width: 259px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+.Main_one button{
+position: absolute;
+padding: 26px 52px 25px 53px;
+margin: 496px 1039px 51px 140px;
+color: white;
+background-color: #38466D;
+width: 300px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+border-radius: 5px;
+border:3px solid #38466D;
+transition: 1s ease-in-out;
+}
+.Main_one button:hover{
+transition: .5s ease-in-out;
+background-color: rgba(50, 70, 109, .2);
+color: #38466D;
+font-weight: 400;
+font-size: 24px;
+border: 3px solid #38466D;
+}
+
+.Main_two{
+position: relative;
+margin: 68px auto 0;
+width: 1160px;
+height: 414px;
+display: grid;
+grid-row-gap: 50px;
+grid-template-columns: repeat(3, 400px);
+grid-template-rows: repeat(2, 175px);
+}
+[class^="MT_"] img{
+position: absolute;
+width: 70px;
+height: 70px;
+margin: 26px 330px 79px 0;
+}
+[class^="MT_"] p{
+position: absolute;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+width: 400px;
+margin-top: 118px;
+}
+
+
+.Main_three{
+position: relative;
+margin: 87px auto 0;
+width: 1160px;
+height: 400px;
+background-color: #38466d;
+border-radius: 20px;
+}
+.Main_three h2{
+position: absolute;
+margin: 30px auto 0;
+left: 300px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 50px;
+width: 615px;
+color: white;
+}
+.Main_thre_one{
+position: absolute;
+margin: 105px 130px 0;
+width: 840px;
+height: 250px;
+display: grid;
+grid-gap: 40px;
+grid-template-columns: repeat(2, 500px);
+grid-template-rows: repeat(2, 117px);
+}
+[class^="MTH_"] p{
+position: absolute;
+font-family: Roboto, serif;
+font-size: 20px;
+width: 230px;
+margin-left: 120px;
+color: white;
+line-height: 30px;
+}
+[class^="MTH_"] img{
+position: absolute;
+width: 50px;
+height: 50px;
+margin: 10px 0 0 40px;
+}
+
+
+.Main_fore{
+position: relative;
+margin: 123px auto 0;
+width: 1160px;
+height: 783px;
+}
+.Main_fore h2{
+position: absolute;
+margin: 0 auto;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+width: 370px;
+}
+.MF_one{
+position: absolute;
+margin: 80px auto;
+width: 560px;
+height: 703px;
+border-radius: 20px;
+box-shadow: 0 0 3px 1px #CCC;
+}
+.MF_two{
+position: absolute;
+margin: 80px auto;
+margin-left: 600px;
+width: 560px;
+height: 703px;
+border-radius: 20px;
+box-shadow: 0 0 3px 1px #CCC;
+}
+[class^="MF_"] img{
+width: 560px;
+height: 287px;
+border-radius: 20px 20px 0 0;
+}
+[class^="MF_"] h3{
+position: absolute;
+margin: 27px 32px 265px 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 600;	
+font-size: 24px;
+line-height: 36px;
+width: 500px;
+}
+[class^="MF_"] p{
+position: absolute;
+margin: 137px 32px 79px 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;	
+font-size: 16px;
+line-height: 24px;
+width: 486px;
+}
+.Mb_1{
+position: absolute;
+padding: 6px 24px 5px 23px;
+margin: 338px 432px 22px 53px;
+color: white;
+background-color: #38466d;
+width: 122px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+border-radius: 5px;
+border: 2px solid #38466d;
+transition: 1s ease-in-out;
+}
+.Mb_1:hover{
+transition: .5s ease-in-out;
+background-color: rgba(50, 70, 109, .2);
+color: #38466D;
+font-weight: 500;
+font-size: 16px;
+border: 2px solid #38466D;
+}
+.Mb_2{
+padding: 6px 24px 5px 23px;
+margin: 338px 432px 22px 202px;
+color: #38466d;
+background-color: rgba(50, 70, 109, .2);
+width: 220px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+border-radius: 5px;
+border: 2px solid #38466d;
+transition: 1s ease-in-out;
+}
+.Mb_2:hover{
+transition: .5s ease-in-out;
+background-color: #38466D;
+color: white;
+font-weight: 400;
+font-size: 16px;
+border: 2px solid #38466D;
+}
+
+
+.Main_five{
+position: relative;
+margin: 87px auto 0;
+width: 1160px;
+height: 280px;;
+border-radius: 20px;
+background-color: #38466d;
+}
+.Main_five p{
+position: absolute;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+width: 760px;
+left: 200px;
+top: 30px;
+color: white;
+}
+.Main_five img{
+position: absolute;
+width: 70px;
+height: 70px;
+left: 545px;
+top: 180px;
+transition: .5s ease-in-out;
+}
+.Main_five img:hover{
+transition: .5s ease-in-out;
+width: 80px;
+height: 80px;
+left: 540px;
+top: 175px;
+}
+
+
+.Main_six{
+position: relative;
+margin: 90px auto 0;
+width: 1440px;
+height: 373px;
+}
+.Main_six h2{
+position: absolute;
+margin: 5px auto;
+left: 140px;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+width: 370px;
+}
+[class^="MSF_"]{
+position: absolute;
+margin-top: 50px;
+width: 60px;
+height: 60px;
+top: 50px;
+background-color: #38466d;
+border-radius: 50%;
+
+}
+.MSF_one{
+left:140px;
+}
+.MSF_two{
+left:440px;;
+}
+.MSF_three{
+left:740px;
+}
+.MSF_fore{
+left:1040px;
+}
+.MSFline{
+position: absolute;
+width: 360px;
+height: 3px;
+background-color: gray;
+margin: 0;
+margin-top: -70px;
+z-index: -3;
+}
+.MSF_fore .MSFline{
+display: none;
+}
+[class^="MST"] [class^="MSF_"] p{
+text-align: center;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+z-index: 2;
+color: white;
+margin-top: 5px ;
+}
+[class^="MST_"]{
+width: 260px;
+margin-top: 30px;
+margin-left: 40px;
+margin-top: 70px;
+}
+[class^="MST_"] h4{
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+}
+[class^="MST_"] p{
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 260px;
+}
+.MST_one{
+margin-left: 140px;
+}
+.MSText{
+display: inline-flex;
+margin-top: 120px;
+}
+
+
+.Main_seven{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 87px auto 0;
+width: 1160px;
+height: 250px;
+padding: 0 140px;
+}
+.Main_seven h5{
+display: flex;
+align-items: flex-start;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+margin: 0;
+}
+.MSeText{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-top: -14px;
+}
+[class^="MSeT_"] h6{
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+width: 360px;
+margin: 0;
+}
+[class^="MSeL_"]{
+background-color: black;
+width: 360px;
+height: 3px;
+margin-top: 15px;
+margin-right: 40px;
+}
+[class^="MSeT_"] p{
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 360px;
+margin-top: 28px;
+}
+
+
+.Footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 87px auto 0;
+width: 1440px;
+height: 120px;
+background-color: #38466d;
+}
+.Footer ul{
+display: inline-flex;
+list-style: none;
+margin-left: -222px;
+}
+.Footer li{
+padding-right: 41px;	
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.Footer li a{
+color: white;
+text-decoration: none;
+}
+.Footer img{
+width: 150px;
+height: 80px;
+margin-left: 50px;
+}
+.FMess{
+display: flex;
+flex-direction: row;
+}
+[class^="FM_"] img{
+width: 60px;
+height: 60px;
+}
+.FM_two img{
+width: 65px;
+height: 65px;
+}
+.FM_three img{
+margin-right: 60px;
+}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 640px){
+body{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+overflow-x: hidden;
+margin: 0 auto;
+}
+.Header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-flow: row wrap;
+margin: 0 auto;
+background-color: #38466D;
+z-index: 30;
+}
+.Logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 60px;
+}
+.Logo img{
+width: 70px;
+height: 40px;
+margin-left: 20px;
+}
+.Nav{
+display: none;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+width: 100vw;
+background-color: #38466D;
+}
+.Menu{
+margin-top: 10px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+list-style: none;
+}
+.Menu li{
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: 42px;
+margin-bottom: 10px;
+margin-left: -40px;
+cursor: pointer;
+}
+.Menu li a{
+text-decoration: none;
+color: white;
+}
+.Burger{
+width: 45px;
+height: 45px;
+margin-right: 20px;
+}
+
+.Main_centr{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: space-between;
+width: 90vw;
+margin: 0 auto;
+}
+.Main_one, .Main_two, .Main_three,
+.Main_fore, .Main_five, .Main_six,
+.Main_seven{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: space-between;
+width: 90vw;
+margin-top: 50px;
+}
+.Main_one{
+margin: 0 auto;
+}
+.BG2{
+display: flex;
+justify-content: flex-end;
+width: 90vw;
+height: 207px;
+margin-top: -268px;
+margin-bottom: 80px;
+z-index: -1;
+}
+.BG2 img{
+z-index: -1;
+
+}
+.Main_one h1{
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: 42px;
+margin-left: 10px;
+margin-top: 20px;
+width: 260px;
+}
+.Main_one h1 br{
+display: none;
+}
+.Main_one p{
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-left: 10px;
+margin-top: -10px;
+width: 140px;
+}
+.Main_one button{
+width: 90vw;
+height: 50px;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+border-radius: 5px;
+background: #38466D;
+margin-top: 30px;
+border: none;
+}
+
+.Main_two{
+display: none;
+}
+
+.Main_three{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+border-radius: 10px;
+background: #38466D;
+}
+.Main_three h2{
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+}
+[class^="MTH"] {
+display: flex;
+flex-direction: row;
+margin-bottom: 5px;
+}
+[class^="MTH"] img{
+width: 30px;
+height: 30px;
+margin-left: 25px;
+}
+[class^="MTH"] p{
+color: #FFF;
+text-align: left;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 27px;
+margin: 0 25px 20px 20px;
+}
+
+.Main_fore{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.Main_fore h2{
+margin: 0;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+[class^="MF_"]{
+display: flex;
+flex-direction: column;
+width: 90vw;
+margin-top: 10px;
+border-radius: 10px;
+box-shadow: 0 0 3px 1px #CCC;
+}
+.MF_two{
+margin-top: 30px;
+}
+[class^="MF_"] img{
+border-radius: 10px;
+}
+[class^="MF_"] h3{
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+margin: 10px 10px 0 10px;
+}
+[class^="MF_"] p{
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+margin: 15px 10px 0 10px;
+}
+[class^="MF_"] .Mb_1{
+width: 80vw;
+height: 50px;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+border-radius: 5px;
+background: #38466D;
+margin: 30px 0 20px 0;
+margin-left: 5% ;
+border: none;
+}
+[class^="MF_"] .Mb_2{
+display: none;
+}
+
+.Main_five{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: gray;
+border-radius: 10px;
+background-color: #38466D;
+}
+.Main_five p{
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px;
+margin: 26px 15px 30px 15px;
+color: white;
+}
+.Main_five img{
+width: 80px;
+height: 80px;
+margin-bottom: 30px;
+}
+
+.Main_six{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: 50px;
+}
+.Main_six h2{
+margin: 0;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+.MS{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: baseline;
+margin-top: 30px;
+}
+.MST{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.MSFline{
+display: none;
+}
+[class^="MSF_"]{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 60px;
+height: 60px;
+background-color: white;
+border-radius: 50%;
+border: 1px solid #38466d;
+z-index: 1;
+}
+[class^="MSF_"] p{
+text-align: center;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+}
+.MSText{
+display: flex;
+flex-direction: column;
+margin: 0 10px 0 25px;
+}
+[class^="MST_"]{
+display: flex;
+flex-direction: column;
+margin-left: 30px;
+}
+[class^="MST_"] h4{
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+width: 70vw;
+margin: 0;
+
+}
+[class^="MST_"] p{
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+margin-top: 0;
+width: 60vw;
+}
+
+
+.Main_seven{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: 50px;
+}
+.Main_seven h5{
+margin: 0;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+[class^=MSeT_]{
+display: flex;
+flex-direction: column;
+}
+[class^=MSeT_] h6{
+margin: 0;
+margin-top: 20px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+}
+[class^=MSeL_]{
+background-color: black;
+width: 90vw;
+height: 2px;
+}
+[class^=MSeT_] p{
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin: 0;
+margin-top: 10px;
+}
+
+
+.Footer{
+margin: 0 auto;
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+flex-flow: row wrap;
+background-color: #38466d;
+}
+.Footer img{
+order: 2;
+width: 110px;
+height: 60px;
+margin: 50px 30px 0 0;
+}
+.Footer_menu{
+display: flex;
+flex-direction: column;
+order: 1;
+list-style: none;
+margin-left: -10px;
+margin-top: 40px;
+}
+.Footer_menu li{
+margin: 0;
+margin-bottom: 10px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+color: white;
+}
+.Footer_menu li a{
+text-decoration: none;
+color: white;
+}
+.FMess{
+margin: 30px 0 15px 0;
+margin-left: inherit;
+margin-right: inherit;
+display: flex;
+justify-content: space-between;
+order: 3;
+width: 260px;
+}
+[class^="FM_"] img{
+margin: 0;
+width: 60px;
+height: 60px;
+}
+.FM_two img{
+margin-top: -2px;
+width: 65px;
+height: 65px;
+}
+}
