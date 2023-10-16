@@ -22,6 +22,7 @@ background-color: #38466D;
 .Header img{
 width: 120px;
 height: 70px;
+cursor: pointer;
 }
 .Menu li{
 display: inline-flex;
