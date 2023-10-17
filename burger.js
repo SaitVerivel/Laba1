@@ -1,7 +1,9 @@
+const mediaQuery = window.matchMedia('(min-width: 300px) and (max-width: 640px)');
 const menuBtn = $(".Burger"),
       menu = $(".Nav");
 
-menuBtn.on("click", function () {
+if(mediaQuery.matches){
+    menuBtn.on("click", function () {
     if ($(this).hasClass("is-active")) {
         $(this).removeClass("is-active");
         menu.slideUp();
@@ -16,5 +18,6 @@ $(document).click(function (e) {
         menu.slideUp();
         menuBtn.removeClass("is-active");
     };
-});
+});  
+}
 
