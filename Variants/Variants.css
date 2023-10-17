@@ -141,7 +141,9 @@ color: gray;
 .VP_one p{
 color: black;
 }
-
+.Variants_pages{
+cursor: pointer;
+}
 .Variants_pages img{
 position: absolute;
 width: 20px;
