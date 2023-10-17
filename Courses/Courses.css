@@ -686,22 +686,26 @@ text-decoration: none;
 color: white;
 }
 .FMess{
-margin: 30px 0 15px 30px;
+margin: 30px 0 15px 0;
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
+align-items: flex-endl;
 margin-left: inherit;
 margin-right: inherit;
 order: 3;
-width: 260px;
+width: 90vw;
 }
-
 [class^="FM_"] img{
-margin: 0;
 width: 60px;
 height: 60px;
 }
+.FM_one{
+margin-left: 20px;
+}
+.FM_two{
+margin-bottom: 0px;
+}
 .FM_two img{
-margin-top: -2px;
 width: 65px;
 height: 65px;
 }
