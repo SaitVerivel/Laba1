@@ -695,6 +695,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 36px;
+width: 80vw;
 }
 [class^="MTH"] {
 display: flex;
