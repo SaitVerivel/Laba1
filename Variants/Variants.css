@@ -627,6 +627,7 @@ margin-left: 10px;
 }
 .VOInfo:active::after{
 content: attr(data-title);
+margin-left: 15px;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
